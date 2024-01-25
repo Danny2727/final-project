@@ -6,4 +6,4 @@ const Rank = () => {
     )
     }
     
-    export default Slayers;
+    export default Rank;

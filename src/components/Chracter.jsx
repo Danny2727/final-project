@@ -1,3 +1,7 @@
+import Slayers from "./Slayers"
+import Demons from "./Demons"
+import Rank from "./Rank"
+
 const Character = () => {
     return(
         <div class="chracter-list">

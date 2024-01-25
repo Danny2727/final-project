@@ -6,4 +6,4 @@ const Demons = () => {
     )
     }
     
-    export default Slayers;
+    export default Demons;
