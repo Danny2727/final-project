@@ -1,6 +1,6 @@
 const Rank = () => {
     return (
-        <div class="demon rank"> 
+        <div className="demon rank"> 
         <p></p>
         </div>
     )

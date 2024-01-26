@@ -2,11 +2,11 @@ import Slayers from "./Slayers"
 import Demons from "./Demons"
 import Rank from "./Rank"
 
-const Character = () => {
+const Character = (props) => {
     return(
-        <div class="chracter-list">
-        <div class="posters">
-            <img/>
+        <div className="chracter-list">
+        <div className="posters">
+            <Slayers/>
             <h2></h2>
             <h4></h4>
             <ul>
@@ -21,3 +21,5 @@ const Character = () => {
         </div>
     )
 }
+
+export default Character;
