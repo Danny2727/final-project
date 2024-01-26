@@ -7,6 +7,7 @@ const Character = (props) => {
         <div className="chracter-list">
         <div className="posters">
             <Slayers/>
+            <Demons />
             <h2></h2>
             <h4></h4>
             <ul>
