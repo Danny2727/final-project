@@ -8,6 +8,7 @@ const Character = (props) => {
         <div className="posters">
             <Slayers/>
             <Demons />
+            <Rank />
             <h2></h2>
             <h4></h4>
             <ul>
