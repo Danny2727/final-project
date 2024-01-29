@@ -3,7 +3,7 @@ import Demons from "./Demons"
 
 const Character = (props) => {
     return(
-        <div className="chracter-list">
+        <div className="character-list">
         <div className="posters">
             <Slayers/>
             <Demons />
