@@ -1,4 +1,6 @@
+
 import demons from "../demon.json"
+import Rank from "./Rank";
 
 const Demons = () => {
     return (
@@ -12,6 +14,7 @@ const Demons = () => {
                         <li>{demon.fightingstyle}</li>
                         <li>{demon.bloodart}</li>
                     </ul>
+                    <Rank rank={demon.rank} />
                 </div>
             ))}
 

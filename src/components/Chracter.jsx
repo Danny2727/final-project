@@ -1,6 +1,5 @@
 import Slayers from "./Slayers"
 import Demons from "./Demons"
-import Rank from "./Rank"
 
 const Character = (props) => {
     return(
@@ -8,14 +7,6 @@ const Character = (props) => {
         <div className="posters">
             <Slayers/>
             <Demons />
-            <Rank />
-            <h2></h2>
-            <h4></h4>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
         </div>
 
 

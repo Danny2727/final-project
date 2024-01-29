@@ -1,6 +1,9 @@
+
+
 const Rank = (props) => {
+    console.log(props)
     let colorVariable
-    let textColor 
+    let textColor
 
     switch (props.rank) {
         case 'Upper Rank 2':
@@ -13,7 +16,7 @@ const Rank = (props) => {
             break;
         case 'Upper Rank 6':
             colorVariable = 'blue'
-            textColor = 'black' 
+            textColor = 'black'
             break;
 
         case 'Upper Rank 3':
@@ -21,25 +24,29 @@ const Rank = (props) => {
             textColor = 'black'
             break;
 
-            case 'Upper Rank 1':
+        case 'Upper Rank 1':
             colorVariable = 'gold'
-            textColor = 'black' 
+            textColor = 'black'
             break;
+
+
 
 
         default:
             colorVariable = 'black'
             textColor = 'red'
-
-    return (
-        <div className="demon rank"> 
-          <p style={{ backgroundColor: colorVariable, color: textColor }}>
-                {props.rank}
-            </p>
-        </div>
-    )
     }
 
-}
+            return (
+                <div className="demonrank">
+        
+                    <p style={{ backgroundColor: colorVariable, color: textColor }}>
+                        {props.rank}
+                    </p>
+                </div>
+            )
     
-    export default Rank;
+
+}
+
+export default Rank;
